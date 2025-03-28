@@ -8,6 +8,7 @@ function App() {
   return (
     <div className="flex-col ">
       <Header />
+      {/* Ne prend pas tout l'espace de la page je ne sais pas pourquoi */}
       <div className="grow">
         <Logements />
         <ListAvis />

@@ -18,6 +18,7 @@ export default function ListAvis() {
   return (
     <div className="flex-col p-5 bg-gray-50">
       <h2 className="mx-3 text-2xl font-semibold ">Avis Clients</h2>
+      {/* Affichage des différents logement + responsive vertical pour petit ecran*/}
       <div className="flex max-md:flex-col ">
         {reviews.map((avis) => (
           <UnAvis avis={avis} key={avis.id} />

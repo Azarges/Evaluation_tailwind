@@ -47,6 +47,7 @@ export default function Logements() {
   return (
     <div className="flex-col p-5 bg-gray-100">
       <h2 className="mx-3 text-2xl font-semibold ">Logements disponibles</h2>
+      {/* Affichage d'un logement + scroll horizontal */}
       <div className="flex overflow-x-auto">
         {listings.map((logement) => (
           <UnLogement logement={logement} key={logement.id} />
