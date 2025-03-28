@@ -3,7 +3,7 @@ import React from "react";
 export default function Footer() {
   return (
     <div className="flex justify-center p-10 text-white bg-gray-800 max-md:flex-col">
-      {/* Colonne à propos */}
+      {/* Colonne à propos  */}
       <div className="w-1/6 p-5 max-md:w-auto">
         <h3 className="font-medium">À propos</h3>
         <p>Nous aidons les voyageurs à trouver le logement idéal.</p>
