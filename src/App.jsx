@@ -1,10 +1,19 @@
 import "./App.css";
+import Footer from "./components/Footer";
+import ListAvis from "./components/ListAvis";
+import Logements from "./components/Logements";
+import Header from "./components/Header";
 
 function App() {
   return (
-    <>
-      <h1 className="bg-black">Tailwind</h1>
-    </>
+    <div className="flex-col ">
+      <Header />
+      <div className="grow">
+        <Logements />
+        <ListAvis />
+      </div>
+      <Footer />
+    </div>
   );
 }
 
