@@ -3,7 +3,7 @@ import React from "react";
 export default function UnLogement({ logement }) {
   return (
     <div>
-      <div className="p-3 m-3 bg-white w-72 rounded-xl">
+      <div className="p-3 m-3 bg-white w-72 rounded-xl hover:cursor-pointer">
         {/* Affichage de l'image */}
         <img
           src={logement.image}
